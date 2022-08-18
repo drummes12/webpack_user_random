@@ -336,11 +336,11 @@ body {
 
 @keyframes stroke-draw {
   from {
-    stroke: #8a3ab9;
+    stroke: #b93a3a;
     stroke-dasharray: 1;
   }
   to {
-    stroke: #cd486b;
+    stroke: #000000;
     transform: rotate(180deg);
     stroke-dasharray: 8;
   }
