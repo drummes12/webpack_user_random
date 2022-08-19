@@ -11,7 +11,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].[contenthash].js",
-    assetModuleFilename: "assets/images/[name].[contenthash].[ext]",
+    assetModuleFilename: "assets/images/[name][ext]",
   },
   resolve: {
     extensions: [".js"],
@@ -44,7 +44,7 @@ module.exports = {
         test: /\.(woff|woff2)$/i,
         type: "asset/resource",
         generator: {
-          filename: "assets/fonts/[name].[contenthash].[ext]",
+          filename: "assets/fonts/[name][ext]",
         },
       },
     ],
